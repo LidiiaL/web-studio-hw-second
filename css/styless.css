@@ -1,0 +1,36 @@
+/*main text  color: #757575; */
+/*secondary text  color: #212121; */
+/*accents color: #2196F3; */
+/*primary bacground color #E5E5E5; */
+/*primary button bacground color #F5F4FA; */
+
+:root {
+    --main-text-color: #757575;;
+    --secondary-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bacground-color: #E5E5E5;
+    --primary-button-bcg-color: #F5F4FA;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+     }
+
+/*шапка страницы*/
+ 
+body {}
+
+  .button {
+    text-color: var(--secondary-text-color);
+    bacground-color: var(--primary-button-bcg-color);
+   }
+      
+ /* Site nav */
+
+ .web-nav .link {
+    color:  #212121;
+    /*var(--secondary-text-color);*/
+  }
+  
+  .web-nav .link:hover,
+  .web-nav .link:focus {
+    color: var(--accent-color);
+  }
