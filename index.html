@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Веб Студия Киев</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap" 
+    rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css" 
+    integrity="sha512-yp4nScgc3FLGSJK6gj7q+YzX4ApX8ifljxvw3x5oYG4Js/u7ABw/U+pP31kefS2iz83pHbwe+Le2WvcosArp6Q==" crossorigin="anonymous" 
+    />-->
     <link rel="stylesheet" href="./css/styless.css">
 </head>
 <body>
@@ -15,19 +19,20 @@
             alt="Логотип Web Studio написан латинскими буквами.
             Слово Web голубого цвета, слово Studio чёного цвета">
          </a>
-         <ul class="site-nav list">
-            <li><a href="">Студия</a><img src="images/hand.svg" 
-                alt="графика. изображение руки с поднятым вверх указательным пальцем">
-            </li>
+         <ul class="nav-list">
+            <li><a href="">Студия</a></li>
             <li><a href="portfolio.html">Портфолио</a></li>
             <li><a href="">Контакты</a></li>
          </ul>
       </nav>
 
-      <address>
-        <a href="mailto:info@example.com">info@example.com</a><img src="images/hand.svg" 
-        alt="графика. изображение руки с поднятым вверх указательным пальцем">
-        <a href="tel:+38-099-111-11-11">+38-099-111-11-11</a>
+      <address class="address-links">
+        <a class="address-links-contact"
+           href="mailto:info@example.com">info@example.com
+       </a>
+        <a class="address-links-contact"
+           href="tel:+38-099-111-11-11">+38-099-111-11-11
+       </a>
         </address>
                 
     </header>
@@ -35,13 +40,15 @@
 <main>
     <div>
         <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <a href="">Заказать услугу</a>
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <a class="hero-order"
+              href="">Заказать услугу
+            </a>
         </section>
     </div>
 
  <section>
-    <ul>
+    <ul class="we-doing-list">
         <li>
               <h3>Внимание к деталям</h3>
                 <p>Идейные соображения, а также 
@@ -86,39 +93,59 @@
     </ul>
  </section>
 
- <section>
-    <h3>Наша команда</h3>
+ <section class="our-team">
+    <h3 class="our-team-title">Наша команда</h3>
  <ul>
      <li>
          <figure>
-          <!-- Произвольный графический контент: фотография, график, диаграмма и т. п. -->
-          <img src="images/igor-demyanenko.jpg" alt="улыбающийся молодой мужчина, шатен в очках, с бородкой и усами, в коричневой рубашке." 
-          width="270" />
-          <figcaption>Игорь Демьяненко <br lang="en"> Product Designer</figcaption>
+             <!-- Произвольный графический контент: фотография, график, диаграмма и т. п. -->
+             <img src="images/igor-demyanenko.jpg" 
+                 alt="улыбающийся молодой мужчина, шатен в очках, с бородкой и усами, в коричневой рубашке." 
+                 width="270" 
+             />
+             <figcaption class="our-team-names"> 
+              <p>Игорь Демьяненко</p> <br 
+              lang="en"> Product Designer
+             </figcaption>
          </figure> 
      </li>
      <li>
          <figure>
-          <!-- Произвольный графический контент: фотография, график, диаграмма и т. п. -->
-          <img src="images/olga-repina.jpg" alt="улыбающаяся молодая девушка, блондинка с длинными волосами, в очках и черном пиджаке."
-          width="270" />
-          <figcaption>Ольга Репина <br lang="en"> Frontend Developer</figcaption>
+             <!-- Произвольный графический контент: фотография, график, диаграмма и т. п. -->
+             <img src="images/olga-repina.jpg" 
+                  alt="улыбающаяся молодая девушка, блондинка с длинными волосами, в очках и черном пиджаке."
+                  width="270" 
+               />
+             <figcaption class="our-team-names">
+                  <p>Ольга Репина</p> <br 
+                  lang="en"> Frontend Developer
+             </figcaption>
          </figure> 
      </li>
      <li>
          <figure>
-          <!-- Произвольный графический контент: фотография, график, диаграмма и т. п. -->
-          <img src="images/nikolay-tarasov.jpg" alt="улыбающийся молодой мужчина, шатен в светлой рубашке, расположен в полупрофиль"
-          width="270" />
-          <figcaption>Николай Тарасов <br lang="en"> Marketing</figcaption>
+             <!-- Произвольный графический контент: фотография, график, диаграмма и т. п. -->
+             <img src="images/nikolay-tarasov.jpg" 
+               alt="улыбающийся молодой мужчина, шатен в светлой рубашке, расположен в полупрофиль"
+               width="270" 
+             />
+             <figcaption class="our-team-names">
+              <p>Николай Тарасов</p> <br 
+              lang="en"> Marketing
+             </figcaption>
          </figure> 
      </li>
      <li>
          <figure>
-           <!-- Произвольный графический контент: фотография, график, диаграмма и т. п. -->
-           <img src="images/mikhail-ermakov.jpg" alt="молодой мужчина c полуулыбкой, шатен в черной футболке, в очках"
-           width="270" />
-           <figcaption>Михаил Ермаков <br lang="en"> UI Designer</figcaption>
+             <!-- Произвольный графический контент: фотография, график, диаграмма и т. п. -->
+             <img src="images/mikhail-ermakov.jpg" 
+                alt="молодой мужчина c полуулыбкой, шатен в черной футболке, в очках"
+                width="270" 
+             />
+              <figcaption class="our-team-names">
+                 <p>Михаил Ермаков</p> <br 
+                  lang="en"> UI Designer
+              </figcaption>
          </figure> 
      </li>
  </ul>
@@ -126,10 +153,18 @@
 </main>
 
 <footer>
-     <img src="images/logo.svg" alt="">
-     <address>г. Киев, пр-т Леси Украинки, 26<br>
-     <a href="mailto:info@example.com">info@example.com</a><br>
-     <a href="tel:+38-099-111-11-11">+38-099-111-11-11</a>
+     <img class="logo"
+          src="images/logo.svg" alt="Логотип Web Studio написан латинскими буквами.
+          Слово Web голубого цвета, слово Studio чёного цвета"
+     >
+     <address class="address-links">
+           <p class="footer-real-address">г. Киев, пр-т Леси Украинки, 26</p> <br>
+           <a class="address-links-contact"
+              href="mailto:info@example.com">info@example.com
+           </a><br>
+           <a class="address-links-contact"
+              href="tel:+38-099-111-11-11">+38-099-111-11-11
+           </a>
      </address>
 </footer>
 </body>

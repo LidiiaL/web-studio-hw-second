@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Веб Студия Киев Портфолио</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap" 
+    rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css" 
+    integrity="sha512-yp4nScgc3FLGSJK6gj7q+YzX4ApX8ifljxvw3x5oYG4Js/u7ABw/U+pP31kefS2iz83pHbwe+Le2WvcosArp6Q==" crossorigin="anonymous" 
+    />-->
     <link rel="stylesheet" href="./css/styless.css">
 </head>
 <body>
@@ -16,71 +20,100 @@
              alt="Логотип Web Studio написан латинскими буквами.
              Слово Web голубого цвета, слово Studio чёного цвета">
           </a>
-          <ul class="web-nav list">
-             <li><a href="">Студия</a><img src="images/hand.svg" 
-                 alt="графика. изображение руки с поднятым вверх указательным пальцем">
-             </li>
+          <ul class="nav-list">
+             <li><a href="">Студия</a></li>
              <li><a href="">Портфолио</a></li>
              <li><a href="">Контакты</a></li>
           </ul>
        </nav>
  
-       <address>
-         <a href="mailto:info@example.com">info@example.com</a><img src="images/hand.svg" 
-         alt="графика. изображение руки с поднятым вверх указательным пальцем">
-         <a href="tel:+38-099-111-11-11">+38-099-111-11-11</a>
+       <address class="address-links">
+         <a class="address-links-contact"
+             href="mailto:info@example.com">info@example.com
+         </a>
+         <a class="address-links-contact"
+             href="tel:+38-099-111-11-11">+38-099-111-11-11
+         </a>
          </address>
                  
      </header>
 
      <main>
-       <!--<h1>Портфолио</h1>-->
-            <ul>
-             <li><a href="button" class="button">Все</a></li>
-             <li><a href="button" class="button">Веб-сайты</a></li>
-             <li><a href="button" class="button">Приложения</a></li>
-             <li><a href="button" class="button">Дизайн</a></li>
-             <li><a href="button" class="button">Маркетинг</a></li>
+           <!--<h1>Портфолио</h1>-->
+            <ul class="portfolio-list">
+             <li><a href="">Все</a></li>
+             <li><a href="">Веб-сайты</a></li>
+             <li><a href="">Приложения</a></li>
+             <li><a href="">Дизайн</a></li>
+             <li><a href="">Маркетинг</a></li>
             </ul>
            
+            <section>
             <!--<h2>Галерея работ</h2>-->
              <ul>
                  <li>
-                     <img src="/images/technokryak.jpg" alt="" width="370">
+                     <img src="images/technokryak.jpg" alt="" width="370">
+                     <p class="portfolio-titles">Технокряк</p> <br> 
+                     <p class="portfolio-categories">Веб-сайт</p>
                  </li>
                  <li>
-                     <img src="/images/neworlean-vs-goldenstar.jpg" alt="" width="370">
+                     <img src="images/neworlean-vs-goldenstar.jpg" alt="" width="370">
+                     <p class="portfolio-titles">Постер New Orlean vs Golden Star</p> <br> 
+                     <p class="portfolio-categories">Дизайн</p>
                  </li>
                  <li>
-                     <img src="/images/restaurant-seafood.jpg" alt="" width="370">
+                     <img src="images/restaurant-seafood.jpg" alt="" width="370">
+                     <p class="portfolio-titles">Ресторан Seafood</p> <br> 
+                     <p class="portfolio-categories">Приложение</p>
                  </li>
                  <li>
-                     <img src="/images/project-prime.jpg" alt="" width="370">
+                     <img src="images/project-prime.jpg" alt="" width="370">
+                     <p class="portfolio-titles">Проект Prime</p> <br> 
+                     <p class="portfolio-categories">Маркетинг</p>
                  </li>
                  <li>
-                     <img src="/images/project-boxes.jpg" alt="" width="370">
+                     <img src="images/project-boxes.jpg" alt="" width="370">
+                     <p class="portfolio-titles">Проект Boxes</p> <br> 
+                     <p class="portfolio-categories">Приложение</p>
                  </li>
                  <li>
-                     <img src="/images/inspiration-has-no-borders.jpg" alt="" width="370">
+                     <img src="images/inspiration-has-no-borders.jpg" alt="" width="370">
+                     <p class="portfolio-titles">Inspiration has no Borders</p> <br> 
+                     <p class="portfolio-categories">Веб-сайт</p>
                  </li>
                  <li>
-                     <img src="/images/limited-edition.jpg" alt="" width="370">
+                     <img src="images/limited-edition.jpg" alt="" width="370">
+                     <p class="portfolio-titles">Издание Limited Edition</p> <br> 
+                     <p class="portfolio-categories">Дизайн</p>
                  </li>
                  <li>
-                     <img src="/images/project-lab.jpg" alt="" width="370">
+                     <img src="images/project-lab.jpg" alt="" width="370">
+                     <p class="portfolio-titles">Проект LAB</p> <br> 
+                     <p class="portfolio-categories">Маркетинг</p>
                  </li>
                  <li>
-                      <img src="/images/growing-business.jpg" alt="" width="370">
+                      <img src="images/growing-business.jpg" alt="" width="370">
+                      <p class="portfolio-titles">Growing Business</p> <br> 
+                      <p class="portfolio-categories">Приложение</p>
                  </li>
              </ul>
+            </section>
      </main>
-
+    
 
      <footer>
-        <img src="images/logo.svg" alt="">
-        <address>г. Киев, пр-т Леси Украинки, 26<br>
-        <a href="mailto:info@example.com">info@example.com</a><br>
-        <a href="tel:+38-099-111-11-11">+38-099-111-11-11</a>
+        <img class="logo"
+             src="images/logo.svg" alt="Логотип Web Studio написан латинскими буквами.
+             Слово Web голубого цвета, слово Studio чёного цвета"
+        >
+        <address class="address-links">
+              <p class="footer-real-address">г. Киев, пр-т Леси Украинки, 26</p><br>
+              <a class="address-links-contact"
+                 href="mailto:info@example.com">info@example.com
+              </a><br>
+              <a class="address-links-contact"
+                 href="tel:+38-099-111-11-11">+38-099-111-11-11
+              </a>
         </address>
    </footer>
 
