@@ -106,7 +106,7 @@ line-height: 1.2;
    font-size: 14px;
    line-height: 1.8;
 }
-/*задаёт стили для страницы портфолио с примерами работ*/   
+/*задаёт стили для кнопок страницы портфолио*/   
 .portfolio-list a {
       color: var(--secondary-text-color);
       background-color: var(--primary-button-bcg-color);
@@ -123,14 +123,14 @@ line-height: 1.2;
   font-size: 16px;
   line-height: 1.6;
 }
-
+/*добавляет стили для названий проектов в портфолио*/
 .portfolio-titles {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
-
+/*добавляет стили для категорий выполненных работ подписи к фото*/
 .portfolio-categories {
   color: var(--main-text-color);
   font-weight: 400;
