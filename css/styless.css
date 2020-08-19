@@ -4,6 +4,7 @@
 /*primary background color #E5E5E5; */
 /*primary button background color #F5F4FA; */
 
+/*задаёт основные цвета сайта*/
 :root {
     --main-text-color:#757575;
     --secondary-text-color: #212121;
@@ -13,25 +14,26 @@
     --main-white-color: #FFFFFF;
     --footer-background-color: #2F303A;
      }
-
+/*сбрасывает все предустановленные отступы и размеры*/
      *{
       padding: 0;
       margin: 0;
       box-sizing: border-box;
   }
- /*шапка страницы*/
- 
+ /*задаёт общий стиль основного шрифта*/
  body {
   font-family: 'Roboto', sans-serif; 
   color: var(--main-text-color);
   letter-spacing: 0.03em;
   }
+  /*задаёт стили шрифта для логотипа*/
 .logo {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--accent-color);
 }
+/*задаёт стили для навигации сайта*/
 .nav-list a {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -42,18 +44,18 @@
 .nav-list :focus {
   color: var(--accent-color);
 }
-
+/*задаёт стили для блоков с контактами*/
 .address-links-contact {
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
-
 .address-links :hover,
 .address-links :focus {
   color: var(--accent-color);
 }
+/*задаёт стили для секции герой*/
 .hero-title {
   color: var(--main-white-color);
   background-color: var(--main-text-color);
@@ -69,15 +71,17 @@
   font-size: 16px;
   line-height: 1.9;
 }
+/*задаёт стиль для заголовков*/
   main h2,h3 {
   color: var(--secondary-text-color);
   }
-
+/*задаёт стили для секции чем мы занимаемся*/
 .we-doing-list {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
+/*задаёт стили для секции наша команда*/
 .our-team-title {
   font-weight: 700;
 font-size: 36px;
@@ -89,13 +93,12 @@ line-height: 1.2;
   font-size: 16px;
   line-height: 1.2;
 }
-
 .our-team-names {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
 }
-
+/*задаёт стили для футеров*/
 .footer-real-address {
    color: var(--main-white-color);
    background-color: var(--footer-background-color);
@@ -103,8 +106,7 @@ line-height: 1.2;
    font-size: 14px;
    line-height: 1.8;
 }
-
-    
+/*задаёт стили для страницы портфолио с примерами работ*/   
 .portfolio-list a {
       color: var(--secondary-text-color);
       background-color: var(--primary-button-bcg-color);
